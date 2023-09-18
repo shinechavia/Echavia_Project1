@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #006491;
+    font-size: 36px;
+    margin-top: 20px;
+}
+.construction-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.construction-message {
+    color: #006491;
+    font-size: 24px;
+    margin-top: 20px;
+    transition: transform 0.3s;
+}
+
+.construction-message:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.navbar-brand {
+    color: rgb(250, 241, 241) !important; /* Set the font color to white */
+}
+
+/* Custom CSS to make the font color white for Navbar links */
+.nav-link {
+    color: rgb(247, 240, 240) !important; /* Set the font color to white */
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px; /* Adjust the space between links */
+}
+
+
+
+/* Add a hover effect */
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important; /* Text color on hover */
+    font-weight: bold; /* Text becomes bold on hover */
+    text-decoration: underline; /* Add an underline on hover */
+    text-decoration-skip-ink: none; /* Prevents the underline from skipping spaces */
+    text-underline-offset: 4px; /* Adjust the space between text and underline */
+    text-decoration-thickness: 2px; /* Adjust the spacing between text and underline */
+}

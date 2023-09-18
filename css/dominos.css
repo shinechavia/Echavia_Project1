@@ -1,0 +1,177 @@
+body {
+    background: linear-gradient( #ffffff, #006491);
+    background-size: cover; /* Makes the background image cover the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center center; /* Centers the background image both horizontally and vertically */
+}
+
+section {
+    background-color:#F0F2F3;
+    color: #006491;
+    padding: 0;
+    border-radius: 10px; /* Adjust the value as needed */
+}
+
+
+.navbar-brand {
+    color: rgb(250, 241, 241) !important; /* Set the font color to white */
+}
+
+/* Custom CSS to make the font color white for Navbar links */
+.nav-link {
+    color: rgb(247, 240, 240) !important; /* Set the font color to white */
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px; /* Adjust the space between links */
+}
+
+
+
+/* Add a hover effect */
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important; /* Text color on hover */
+    font-weight: bold; /* Text becomes bold on hover */
+    text-decoration: underline; /* Add an underline on hover */
+    text-decoration-skip-ink: none; /* Prevents the underline from skipping spaces */
+    text-underline-offset: 4px; /* Adjust the space between text and underline */
+    text-decoration-thickness: 2px; /* Adjust the spacing between text and underline */
+}
+
+.custom-card-body {
+    background-color: lightblue;
+    color: white;
+    /* Add any other custom styles here */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 0 10px #006491; /* Change the box shadow color to #006491 on hover */
+}
+
+.custom-section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* Specify the path to your background image */
+    background-image: url('pizza_cover.png');
+    /* You can adjust background properties like size and position */
+    background-size: cover; /* Adjust this property as needed */
+    background-position: center center; /* Adjust this property as needed */
+    background-repeat: no-repeat; /* Adjust this property as needed */
+}
+
+.container-flex {
+    background-color: #fff; /* Add a background color if needed */
+    position: relative; /* Position relative to contain absolute child */
+}
+
+.third-layout {
+    position: relative; /* Create a stacking context */
+}
+
+.third-item.active {
+    position: relative; /* Create a stacking context */
+}
+
+.third-item img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* To remove extra space below the image */
+}
+
+.left-image {
+    position: absolute;
+    bottom: 0; /* Place at the bottom */
+    left: 0;
+    width: 30%; /* Adjust the width as needed */
+}
+
+.customer-links a {
+    text-decoration: none;
+    color: #006491; /* Default link color */
+    font-weight: normal; /* Default font weight */
+}
+
+    /* Hover link styles */
+    .customer-links a:hover {
+        color: #ff0000; /* Change the color on hover */
+        font-weight: bold; /* Make the text bold on hover */
+    }
+
+
+    /* Normal link styles */
+    .customer-links a {
+        text-decoration: none;
+        color: #006491;
+        font-weight: normal;
+    }
+
+    /* Hover link styles */
+    .customer-links a:hover {
+        color: #ff0000; /* Change the color on hover */
+        font-weight: bold; /* Make the text bold on hover */
+    }
+
+    .custom-footer {
+        background-color: #006491;
+    }
+    
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    .col-md-2 {
+        margin-top: 30px;
+        margin-left: 150px; /* Add the styles you want for small screens here */
+    }
+
+    .col-md-3 {
+        margin-top: 30px;
+        margin-left: 150px; /* Add the styles you want for small screens here */
+    }
+
+    .col.mb-3 {
+        margin-top: 10px; /* Reduce top margin for spacing between cards */
+        margin-left: 10px; /* Remove left margin to center-align cards */
+    }
+    
+    .card {
+        width: 100%; /* Make cards full-width on mobile */
+        margin-bottom: 20px; /* Add margin at the bottom of each card for spacing */
+    }
+
+
+    .card-img-top {
+        height: auto; /* Allow images to adjust their height based on the aspect ratio */
+    }
+
+    .card-title {
+        font-size: 18px; /* Decrease the font size for card titles */
+    }
+
+    .card-text {
+        font-size: 14px; /* Decrease the font size for card text */
+    }
+
+    .card-price {
+        font-size: 20px; /* Decrease the font size for card prices */
+    }
+}
+
+
