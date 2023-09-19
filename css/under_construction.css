@@ -63,3 +63,57 @@ h2 {
     text-underline-offset: 4px; /* Adjust the space between text and underline */
     text-decoration-thickness: 2px; /* Adjust the spacing between text and underline */
 }
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+     /* Hide the search and cart icons */
+     .nav-icon i {
+        display: none;
+    }
+    
+    .col-md-2 {
+        margin-top: 30px;
+        margin-left: 0px; /* Add the styles you want for small screens here */
+        text-align: center;
+    }
+
+    .col-md-3 {
+        margin-top: 30px;
+        margin-left: 0px; /* Add the styles you want for small screens here */
+        text-align: center;
+    }
+
+    .col.mb-3 {
+        margin-top: 10px; /* Reduce top margin for spacing between cards */
+        margin-left: 10px; /* Remove left margin to center-align cards */
+    }
+    
+    .card {
+        width: 100%; /* Make cards full-width on mobile */
+        margin-bottom: 10px; /* Add margin at the bottom of each card for spacing */
+    }
+
+
+    .card-img-top {
+        height: auto; /* Allow images to adjust their height based on the aspect ratio */
+    }
+
+    .card-title {
+        font-size: 18px; /* Decrease the font size for card titles */
+    }
+
+    .card-text {
+        font-size: 14px; /* Decrease the font size for card text */
+    }
+
+    .card-price {
+        font-size: 20px; /* Decrease the font size for card prices */
+    }
+}
+
+
+

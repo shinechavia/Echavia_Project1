@@ -136,6 +136,12 @@ section {
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+
+     /* Hide the search and cart icons */
+     .nav-icon i {
+        display: none;
+    }
+
     .col-md-2 {
         margin-top: 30px;
         margin-left: 0px; /* Add the styles you want for small screens here */
@@ -155,7 +161,7 @@ section {
     
     .card {
         width: 100%; /* Make cards full-width on mobile */
-        margin-bottom: 20px; /* Add margin at the bottom of each card for spacing */
+        margin-bottom: 10px; /* Add margin at the bottom of each card for spacing */
     }
 
 
