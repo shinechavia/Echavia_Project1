@@ -25,6 +25,7 @@ h2 {
     transform: scale(1.1);
     font-weight: bold;
 }
+
 .navbar-brand {
     color: rgb(250, 241, 241) !important; /* Set the font color to white */
 }
@@ -69,12 +70,23 @@ h2 {
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+    
+    .container {
+        max-width: 100%; /* Ensure content doesn't exceed screen width */
+        padding-left: 15px; /* Add padding to match Bootstrap's container padding */
+        padding-right: 15px; /* Add padding to match Bootstrap's container padding */
+    }
+
+    /* Add this rule to prevent horizontal overflow in the header */
+    .navbar {
+    overflow-x: hidden;
+    }
 
      /* Hide the search and cart icons */
      .nav-icon i {
         display: none;
     }
-    
+
     .col-md-2 {
         margin-top: 30px;
         margin-left: 0px; /* Add the styles you want for small screens here */

@@ -3,6 +3,7 @@ body {
     background-size: cover; /* Makes the background image cover the entire element */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     background-position: center center; /* Centers the background image both horizontally and vertically */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 section {
@@ -10,6 +11,10 @@ section {
     color: #006491;
     padding: 0;
     border-radius: 10px; /* Adjust the value as needed */
+}
+
+.navbar {
+    overflow-x: hidden;
 }
 
 
@@ -136,6 +141,17 @@ section {
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
     }
+
+    .container {
+        max-width: 100%; /* Ensure content doesn't exceed screen width */
+        padding-left: 15px; /* Add padding to match Bootstrap's container padding */
+        padding-right: 15px; /* Add padding to match Bootstrap's container padding */
+    }
+
+    /* Add this rule to prevent horizontal overflow in the header */
+    .navbar {
+    overflow-x: hidden;
+    }   
 
      /* Hide the search and cart icons */
      .nav-icon i {
