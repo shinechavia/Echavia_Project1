@@ -138,12 +138,14 @@ section {
     }
     .col-md-2 {
         margin-top: 30px;
-        margin-left: 150px; /* Add the styles you want for small screens here */
+        margin-left: 0px; /* Add the styles you want for small screens here */
+        text-align: center;
     }
 
     .col-md-3 {
         margin-top: 30px;
-        margin-left: 150px; /* Add the styles you want for small screens here */
+        margin-left: 0px; /* Add the styles you want for small screens here */
+        text-align: center;
     }
 
     .col.mb-3 {
