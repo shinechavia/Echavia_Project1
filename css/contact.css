@@ -1,22 +1,44 @@
 body {
-    background: linear-gradient( #ffffff, #006491);
-    background-size: cover; /* Makes the background image cover the entire element */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-position: center center; /* Centers the background image both horizontally and vertically */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-image: url(https://www.usatoday.com/gcdn/authoring/authoring-images/2023/08/21/USAT/70643265007-dominos-pizza-new-pepperoni-stuffed-cheesy-bread.jpg);
+    background-size: 100% auto; /* Adjust the width as needed */
+    background-repeat: no-repeat;
 }
 
-section {
-    background-color:#F0F2F3;
+h2 {
     color: #006491;
-    padding: 0;
-    border-radius: 10px; /* Adjust the value as needed */
+    font-size: 36px;
+    margin-top: 20px;
 }
 
-.navbar {
-    overflow-x: hidden;
+#contact-section {
+    background-color: #fff;
+    border-radius: 10px;
+    /* You can adjust background properties like size and position */
+    background-size: cover; /* Adjust this property as needed */
+    background-position: center center; /* Adjust this property as needed */
+    background-repeat: no-repeat; /* Adjust this property as needed */
+
+}
+.construction-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.construction-message {
+    color: #006491;
+    font-size: 24px;
+    margin-top: 20px;
+    transition: transform 0.3s;
 }
 
+.construction-message:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
 
 .navbar-brand {
     color: rgb(250, 241, 241) !important; /* Set the font color to white */
@@ -57,95 +79,12 @@ section {
     text-decoration-thickness: 2px; /* Adjust the spacing between text and underline */
 }
 
-.custom-card-body {
-    background-color: lightblue;
-    color: white;
-    /* Add any other custom styles here */
-}
-
-.card:hover {
-    transform: scale(1.05); /* Zoom effect on hover */
-    box-shadow: 0 0 10px #006491; /* Change the box shadow color to #006491 on hover */
-}
-
-.custom-section {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    /* You can adjust background properties like size and position */
-    background-repeat: no-repeat; /* Adjust this property as needed */
-    width: 100%;
-}
-
-
-.container-flex {
-    background-color: #fff; /* Add a background color if needed */
-    position: relative; /* Position relative to contain absolute child */
-    width: 100%;
-}
-
-.container-flex-card {
-    background-color: #ffffff; /* Add a background color if needed */
-    width: 100%;
-}
-
-.third-layout {
-    position: relative; /* Create a stacking context */
-}
-
-.third-item.active {
-    position: relative; /* Create a stacking context */
-}
-
-.third-item img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* To remove extra space below the image */
-}
-
-.left-image {
-    position: absolute;
-    bottom: 0; /* Place at the bottom */
-    left: 0;
-    width: 30%; /* Adjust the width as needed */
-}
-
-.customer-links a {
-    text-decoration: none;
-    color: #006491; /* Default link color */
-    font-weight: normal; /* Default font weight */
-}
-
-    /* Hover link styles */
-    .customer-links a:hover {
-        color: #ff0000; /* Change the color on hover */
-        font-weight: bold; /* Make the text bold on hover */
-    }
-
-
-    /* Normal link styles */
-    .customer-links a {
-        text-decoration: none;
-        color: #006491;
-        font-weight: normal;
-    }
-
-    /* Hover link styles */
-    .customer-links a:hover {
-        color: #ff0000; /* Change the color on hover */
-        font-weight: bold; /* Make the text bold on hover */
-    }
-
-
 /* Media query for small screens (e.g., mobile devices) */
 @media (max-width: 768px) {
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
     }
-
-    h3 {
-        padding-left: 5px;;
-    }
-
+    
     .container {
         max-width: 100%; /* Ensure content doesn't exceed screen width */
         padding-left: 15px; /* Add padding to match Bootstrap's container padding */
@@ -160,12 +99,7 @@ section {
      /* Hide the search and cart icons */
      .nav-icon i {
         display: none;
-        
     }
-
-    .nav-item {
-        text-align: left; /* Left align on mobile screens */
-      }
 
     .col-md-2 {
         margin-top: 30px;
@@ -205,20 +139,6 @@ section {
     .card-price {
         font-size: 20px; /* Decrease the font size for card prices */
     }
-
-    .navbar-toggler {
-        border: none; /* Remove the border */
-    }
-    
-    .navbar-toggler[type="button"] {
-        border: none !important;
-    }
-    
-    
 }
-
-
-
-
 
 

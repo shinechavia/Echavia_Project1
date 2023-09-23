@@ -7,7 +7,7 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>The Pizza Delivery Expert | Domino's</title>
-    <link rel="stylesheet" href="css/under_construction.css" >
+    <link rel="stylesheet" href="css/contact.css" >
     <link rel="icon" href="images/favicon.ico" type="image/ico">
 </head>
 <body style="background-color: white !important">
@@ -43,21 +43,54 @@
                          <!-- Cart Icon with added right padding, increased font size, and white color -->
                          <a class="nav-icon" href="cart.html"><i class="fas fa-shopping-cart mr-3" style="font-size: 24px; color: white;"></i></a>
                          <!-- Profile Icon with increased font size and white color -->
-                        <a class="nav-link" href="profile.html"><i class="fas fa-user-circle" style="font-size: 24px; color: white;"></i></a>
+                        <a class="nav-link" href="login.html"><i class="fas fa-user-circle" style="font-size: 24px; color: white;"></i></a>
                     </div>
                 </div>
             </nav>
         </header>
-        <!-- Search Bar -->
+        <!--Profile -->
         <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
-                    <img src="https://www.circlelife.in/images/maintenance-final.gif" style="padding-bottom: 50px; width: 60%;">
-                    <h2 class="construction-message">This website is under construction. Please check back later.</h2>
+        <div class="col-md-5 mx-auto" style="margin-top: 100px;">
+            <div class="bg-white p-3" style="border: 1px solid #dbd0d0; border-radius: 10px; margin: 10px; padding: 15px !important; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);">
+                <div id="contact-section">
+                    <h3 style="color: black; font-size: 50px;">Contact Us</h3>
+                    <br>
+                    <p style="margin-top: 10px; font-size: 18px; padding-bottom: 50px;">Got questions or feedback? We're here to help! Reach out to us, and our team will assist you promptly. Your satisfaction is our priority.</p>
+                        <form action="" method="POST">
+                            <div class="form-group d-flex flex-wrap">
+                                <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                    <label for="first_name">First Name*</label>
+                                    <input type="text" class="form-control smaller-input" id="first_name" name="first_name" required>
+                                </div>  
+                                    <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                    <label for="last_name">Last Name*</label>
+                                    <input type="text" class="form-control smaller-input" id="last_name" name="last_name" required>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex flex-wrap">
+                                    <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                        <label for="email">Email*</label>
+                                        <input type="email" class="form-control smaller-input" id="email" name="email" required>
+                                </div>
+                                    <div class="mr-2" style="flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin and width as needed for mobile -->
+                                        <label for="phone">Phone*</label>
+                                        <input type="tel" class="form-control smaller-input" id="phone" name="phone" required>
+                                    </div>
+                                </div>
+                                    <div class="form-group">
+                                    <div style="margin-left: 0; padding: 0px; flex-basis: 100%; padding-bottom: 10px;"> <!-- Adjust the margin, width, and padding as needed for mobile -->
+                                        <label for="message">Message*</label>
+                                        <textarea class="form-control smaller-input" id="message" name="message" rows="4" required></textarea>
+                                    </div>
+                                </div>
+                                <br>
+                                <div style="text-align: center;">
+                                    <button class="btn-style" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </main>
         <!-- Footer -->
