@@ -110,10 +110,10 @@ button:hover {
 }
 
 .container {
-    margin-top: 150px; /* Adjust the margin-top value as needed */
+    margin-top: 10rem; /* Adjust the margin-top value as needed */
     text-align: left;
     text-decoration: none;
-    margin-bottom: 150px;
+    margin-bottom: 11rem;
 }
 
 
@@ -136,19 +136,15 @@ button:hover {
     padding-right: 25px;
 }
 
-.custom-footer {
-    align-items: center;
-}
 
 /* Media query for small screens (e.g., mobile devices) */
 @media (max-width: 768px) {
 
-.container {
-    margin-top: 150px; /* Adjust the margin-top value as needed */
-    text-align: left;
-    text-decoration: none;
-    margin-bottom: 250px;
-    padding-bottom: 60px;
+    .container {
+        margin-top: 10rem; /* Adjust the margin-top value as needed */
+        text-align: left;
+        text-decoration: none;
+        margin-bottom: 11rem;
     }
 }
 
